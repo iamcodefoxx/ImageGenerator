@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Comfortaa';
+  background-color: black;
+  color: white;
+  border-bottom: 5px solid orange;
+}
+
+.input{
+  position: relative;
+}
+
+#input{
+  position: relative;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 14px 100px 12px 15px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.fa-search{
+  position: absolute;
+  cursor: pointer;
+  color: gray;
+  top: 20%;
+  right: 5%;
+}
+
+#grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.img{
+  width: 400px;
+  height: 200px;
+  margin-top: 15px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2px;
+}
